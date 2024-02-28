@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		508087A3E231B2B94B304DF4 /* libPods-dragon-ios-app.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F10F8410DD0FF49C19CFCF11 /* libPods-dragon-ios-app.a */; };
+		AD2791402B29595E00579B2E /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD27913E2B29595E00579B2E /* WebViewController.m */; };
+		AD2791412B29595E00579B2E /* WebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD27913F2B29595E00579B2E /* WebViewController.xib */; };
+		AD2791442B295C2F00579B2E /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD2791432B295C2F00579B2E /* WebKit.framework */; };
+		AD32B3962B8F1A1D0095D568 /* WebViewRootController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD32B3942B8F1A1D0095D568 /* WebViewRootController.m */; };
+		AD32B3972B8F1A1D0095D568 /* WebViewRootController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD32B3952B8F1A1D0095D568 /* WebViewRootController.xib */; };
+		AD32B3992B8F23EE0095D568 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD32B3982B8F23EE0095D568 /* Foundation.framework */; };
+		AD32B39B2B8F23F60095D568 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD32B39A2B8F23F60095D568 /* CoreGraphics.framework */; };
+		AD3419392B17381700091A7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3419382B17381700091A7F /* AppDelegate.m */; };
+		AD34193C2B17381700091A7F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD34193B2B17381700091A7F /* SceneDelegate.m */; };
+		AD34193F2B17381700091A7F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD34193E2B17381700091A7F /* RootViewController.m */; };
+		AD3419442B17381900091A7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD3419432B17381900091A7F /* Assets.xcassets */; };
+		AD3419472B17381900091A7F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD3419452B17381900091A7F /* LaunchScreen.storyboard */; };
+		AD34194A2B17381900091A7F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3419492B17381900091A7F /* main.m */; };
+		AD3419512B17409200091A7F /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD3419502B17409200091A7F /* RootViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		59D8D6C42D762FDC4EBAE339 /* Pods-dragon-ios-app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dragon-ios-app.release.xcconfig"; path = "Target Support Files/Pods-dragon-ios-app/Pods-dragon-ios-app.release.xcconfig"; sourceTree = "<group>"; };
+		5DB2F8FEEB3CD93E7E7C8486 /* Pods-dragon-ios-app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dragon-ios-app.debug.xcconfig"; path = "Target Support Files/Pods-dragon-ios-app/Pods-dragon-ios-app.debug.xcconfig"; sourceTree = "<group>"; };
+		AD27913D2B29595E00579B2E /* WebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		AD27913E2B29595E00579B2E /* WebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		AD27913F2B29595E00579B2E /* WebViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebViewController.xib; sourceTree = "<group>"; };
+		AD2791432B295C2F00579B2E /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		AD32B3932B8F1A1D0095D568 /* WebViewRootController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebViewRootController.h; sourceTree = "<group>"; };
+		AD32B3942B8F1A1D0095D568 /* WebViewRootController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewRootController.m; sourceTree = "<group>"; };
+		AD32B3952B8F1A1D0095D568 /* WebViewRootController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebViewRootController.xib; sourceTree = "<group>"; };
+		AD32B3982B8F23EE0095D568 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AD32B39A2B8F23F60095D568 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AD3419342B17381700091A7F /* dragon-ios-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dragon-ios-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD3419372B17381700091A7F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AD3419382B17381700091A7F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AD34193A2B17381700091A7F /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		AD34193B2B17381700091A7F /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		AD34193D2B17381700091A7F /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		AD34193E2B17381700091A7F /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		AD3419432B17381900091A7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD3419462B17381900091A7F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD3419482B17381900091A7F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD3419492B17381900091A7F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AD3419502B17409200091A7F /* RootViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RootViewController.xib; sourceTree = "<group>"; };
+		F10F8410DD0FF49C19CFCF11 /* libPods-dragon-ios-app.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dragon-ios-app.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD3419312B17381700091A7F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD32B39B2B8F23F60095D568 /* CoreGraphics.framework in Frameworks */,
+				AD32B3992B8F23EE0095D568 /* Foundation.framework in Frameworks */,
+				AD2791442B295C2F00579B2E /* WebKit.framework in Frameworks */,
+				508087A3E231B2B94B304DF4 /* libPods-dragon-ios-app.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD2791422B295C2F00579B2E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AD32B39A2B8F23F60095D568 /* CoreGraphics.framework */,
+				AD32B3982B8F23EE0095D568 /* Foundation.framework */,
+				AD2791432B295C2F00579B2E /* WebKit.framework */,
+				F10F8410DD0FF49C19CFCF11 /* libPods-dragon-ios-app.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AD32B3922B8F19E70095D568 /* webview */ = {
+			isa = PBXGroup;
+			children = (
+				AD32B3932B8F1A1D0095D568 /* WebViewRootController.h */,
+				AD32B3942B8F1A1D0095D568 /* WebViewRootController.m */,
+				AD32B3952B8F1A1D0095D568 /* WebViewRootController.xib */,
+				AD27913D2B29595E00579B2E /* WebViewController.h */,
+				AD27913E2B29595E00579B2E /* WebViewController.m */,
+				AD27913F2B29595E00579B2E /* WebViewController.xib */,
+			);
+			path = webview;
+			sourceTree = "<group>";
+		};
+		AD34192B2B17381700091A7F = {
+			isa = PBXGroup;
+			children = (
+				AD3419362B17381700091A7F /* dragon-ios-app */,
+				AD3419352B17381700091A7F /* Products */,
+				AD2791422B295C2F00579B2E /* Frameworks */,
+				EEAA9716011906FEB7FB65D6 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		AD3419352B17381700091A7F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD3419342B17381700091A7F /* dragon-ios-app.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD3419362B17381700091A7F /* dragon-ios-app */ = {
+			isa = PBXGroup;
+			children = (
+				AD32B3922B8F19E70095D568 /* webview */,
+				AD3419372B17381700091A7F /* AppDelegate.h */,
+				AD3419382B17381700091A7F /* AppDelegate.m */,
+				AD34193A2B17381700091A7F /* SceneDelegate.h */,
+				AD34193B2B17381700091A7F /* SceneDelegate.m */,
+				AD34193D2B17381700091A7F /* RootViewController.h */,
+				AD34193E2B17381700091A7F /* RootViewController.m */,
+				AD3419502B17409200091A7F /* RootViewController.xib */,
+				AD3419432B17381900091A7F /* Assets.xcassets */,
+				AD3419452B17381900091A7F /* LaunchScreen.storyboard */,
+				AD3419482B17381900091A7F /* Info.plist */,
+				AD3419492B17381900091A7F /* main.m */,
+			);
+			path = "dragon-ios-app";
+			sourceTree = "<group>";
+		};
+		EEAA9716011906FEB7FB65D6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5DB2F8FEEB3CD93E7E7C8486 /* Pods-dragon-ios-app.debug.xcconfig */,
+				59D8D6C42D762FDC4EBAE339 /* Pods-dragon-ios-app.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD3419332B17381700091A7F /* dragon-ios-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD34194D2B17381900091A7F /* Build configuration list for PBXNativeTarget "dragon-ios-app" */;
+			buildPhases = (
+				40E0CF284C9CA5821FAB0CD4 /* [CP] Check Pods Manifest.lock */,
+				AD3419302B17381700091A7F /* Sources */,
+				AD3419312B17381700091A7F /* Frameworks */,
+				AD3419322B17381700091A7F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "dragon-ios-app";
+			productName = ictsapp;
+			productReference = AD3419342B17381700091A7F /* dragon-ios-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD34192C2B17381700091A7F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					AD3419332B17381700091A7F = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = AD34192F2B17381700091A7F /* Build configuration list for PBXProject "dragon-ios-app" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD34192B2B17381700091A7F;
+			productRefGroup = AD3419352B17381700091A7F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD3419332B17381700091A7F /* dragon-ios-app */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD3419322B17381700091A7F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD3419472B17381900091A7F /* LaunchScreen.storyboard in Resources */,
+				AD3419442B17381900091A7F /* Assets.xcassets in Resources */,
+				AD32B3972B8F1A1D0095D568 /* WebViewRootController.xib in Resources */,
+				AD3419512B17409200091A7F /* RootViewController.xib in Resources */,
+				AD2791412B29595E00579B2E /* WebViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		40E0CF284C9CA5821FAB0CD4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dragon-ios-app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD3419302B17381700091A7F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD34193F2B17381700091A7F /* RootViewController.m in Sources */,
+				AD2791402B29595E00579B2E /* WebViewController.m in Sources */,
+				AD3419392B17381700091A7F /* AppDelegate.m in Sources */,
+				AD32B3962B8F1A1D0095D568 /* WebViewRootController.m in Sources */,
+				AD34194A2B17381900091A7F /* main.m in Sources */,
+				AD34193C2B17381700091A7F /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AD3419452B17381900091A7F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD3419462B17381900091A7F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD34194B2B17381900091A7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AD34194C2B17381900091A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD34194E2B17381900091A7F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DB2F8FEEB3CD93E7E7C8486 /* Pods-dragon-ios-app.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C2776K4LVU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "dragon-ios-app/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "前端Tools";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "前端Tools需要您的同意，才能使用摄像头扫码或者拍摄照片";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "前端Tools需要使用你的位置信息，以便更好的为您提供商户拓展服务";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "前端Tools需要您的相册权限，用于提交实名审核材料";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.suixingpay.toolsapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD34194F2B17381900091A7F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59D8D6C42D762FDC4EBAE339 /* Pods-dragon-ios-app.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = C2776K4LVU;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "dragon-ios-app/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "前端Tools";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSCameraUsageDescription = "前端Tools需要您的同意，才能使用摄像头扫码或者拍摄照片";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "前端Tools需要使用你的位置信息，以便更好的为您提供商户拓展服务";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "前端Tools需要您的相册权限，用于提交实名审核材料";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.suixingpay.toolsapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD34192F2B17381700091A7F /* Build configuration list for PBXProject "dragon-ios-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD34194B2B17381900091A7F /* Debug */,
+				AD34194C2B17381900091A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD34194D2B17381900091A7F /* Build configuration list for PBXNativeTarget "dragon-ios-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD34194E2B17381900091A7F /* Debug */,
+				AD34194F2B17381900091A7F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD34192C2B17381700091A7F /* Project object */;
+}
