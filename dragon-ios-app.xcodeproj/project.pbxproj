@@ -15,6 +15,7 @@
 		AD32B3972B8F1A1D0095D568 /* WebViewRootController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AD32B3952B8F1A1D0095D568 /* WebViewRootController.xib */; };
 		AD32B3992B8F23EE0095D568 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD32B3982B8F23EE0095D568 /* Foundation.framework */; };
 		AD32B39B2B8F23F60095D568 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD32B39A2B8F23F60095D568 /* CoreGraphics.framework */; };
+		AD32B39D2B8F30E20095D568 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AD32B39C2B8F30E20095D568 /* README.md */; };
 		AD3419392B17381700091A7F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD3419382B17381700091A7F /* AppDelegate.m */; };
 		AD34193C2B17381700091A7F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AD34193B2B17381700091A7F /* SceneDelegate.m */; };
 		AD34193F2B17381700091A7F /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AD34193E2B17381700091A7F /* RootViewController.m */; };
@@ -36,6 +37,7 @@
 		AD32B3952B8F1A1D0095D568 /* WebViewRootController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebViewRootController.xib; sourceTree = "<group>"; };
 		AD32B3982B8F23EE0095D568 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AD32B39A2B8F23F60095D568 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AD32B39C2B8F30E20095D568 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		AD3419342B17381700091A7F /* dragon-ios-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "dragon-ios-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD3419372B17381700091A7F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		AD3419382B17381700091A7F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -93,6 +95,7 @@
 		AD34192B2B17381700091A7F = {
 			isa = PBXGroup;
 			children = (
+				AD32B39C2B8F30E20095D568 /* README.md */,
 				AD3419362B17381700091A7F /* dragon-ios-app */,
 				AD3419352B17381700091A7F /* Products */,
 				AD2791422B295C2F00579B2E /* Frameworks */,
@@ -194,6 +197,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD32B39D2B8F30E20095D568 /* README.md in Resources */,
 				AD3419472B17381900091A7F /* LaunchScreen.storyboard in Resources */,
 				AD3419442B17381900091A7F /* Assets.xcassets in Resources */,
 				AD32B3972B8F1A1D0095D568 /* WebViewRootController.xib in Resources */,
